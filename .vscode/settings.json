@@ -16,12 +16,6 @@
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "files.defaultLanguage": "markdown",
-  "files.exclude": {
-    "**/node_modules": true
-  },
-  "files.watcherExclude": {
-    "**/node_modules": true
-  },
   "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
   "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
   "foam.edit.linkReferenceDefinitions": "withoutExtensions",
