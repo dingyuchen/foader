@@ -1,4 +1,4 @@
-# Randomized Algorithms
+# Randomized Algorithms Week 1
 
 ## Randomized Data Structures
 
