@@ -26,12 +26,12 @@ $$\binom{n}{r_1, r_2, r_3, ...} = \frac{n!}{r_1! r_2! r_3! ...}$$
 represents the number of possible divisions of $n$ **distinct** objects into $r$ **distinct** groups.
 
 #### Sum of Groups Constraint
-There are $\binom{n-1}{r-1}$ distinct positive integer-valued vectors $(x_1, x_2, ..., x_r) satisfying 
+There are $\binom{n-1}{r-1}$ distinct positive integer-valued vectors $(x_1, x_2, ..., x_r)$ satisfying 
 $$\sum x_i = n$$
 $$x_i > 0, \forall i$$
 
-There are $\binom{n+r-1}{r-1}$ distinct non-negative integer-valued vectors $(x_1, x_2, ..., x_r) satisfying 
-$$\sum x_i = n$$
+There are $\binom{n+r-1}{r-1}$ distinct non-negative integer-valued vectors $(x_1, x_2, ..., x_r)$ satisfying 
+$$ \sum x_i = n $$
 
 > There can be 0
 
