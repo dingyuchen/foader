@@ -1,5 +1,9 @@
 # Inbox
 
+## Daily
+- [ ] Temperature Declaration
+- [ ] Protein Shake
+
 ## Weekly Lectures
 ### Monday
 - [ ] MA3110 1
