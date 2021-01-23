@@ -3,6 +3,7 @@
 
 ## Module Information
 ### Assessment
+
 | Test            | Weightage |
 | --------------- | --------- |
 | 10x Online Quiz | 30%       |
