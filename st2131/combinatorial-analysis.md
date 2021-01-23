@@ -32,7 +32,9 @@ $$x_i > 0, \forall i$$
 
 There are $\binom{n+r-1}{r-1}$ distinct non-negative integer-valued vectors $(x_1, x_2, ..., x_r) satisfying 
 $$\sum x_i = n$$
+
 > There can be 0
+
 ### Notes
 - [[recursive-binomial-coefficients]]
 - [[binomial-theorem]]
