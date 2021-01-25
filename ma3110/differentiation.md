@@ -45,6 +45,8 @@ If $f'(c) > 0$ [[todo]]
 
 #### Proof
 
+[[todo]]
+
 ### Theorem 6.3.2
 
 If $f$ is continuous on $[a, b]$ and differentiable on $(a, b)$ and $f'(c) = 0 \forall c \in (a, b)$, then $f$ is constant on $[a, b]$.
@@ -67,6 +69,7 @@ Let $f$ be differentiable on $(a, b)$.
 
 #### Proof
 
+[[todo]]
 #### Remark
 
 Are the converse of 1 and 2 in [Theorem 6.3.3](#theorem-633) true?
@@ -83,6 +86,14 @@ $$ f(c) \geq f(x), \, \forall x \in (x - \delta, x + \delta)$$
 Hence $f$ has a relative maximum at $c$.
 
 2. vice versa for relative minimum.
+
+#### Proof
+
+[[todo]]
+
+### Higher Derivatives
+
+If $f$ is differentiable on an interval $I$, then its derivative $f'$ is a function on $I$.
 
 ### Key Notes
 

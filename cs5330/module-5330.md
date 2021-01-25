@@ -1,4 +1,4 @@
-# CS5330 Randomized Algorithms
+# Randomized Algorithms
 
 #entry
 
