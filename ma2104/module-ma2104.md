@@ -1,0 +1,24 @@
+# Multivariable Calculus
+
+#entry
+
+## Module Information
+Lectures will be pre-recorded and uploaded every Tuesday and Friday before 12pm in multimedia.
+
+Focus of the lectures will be on the **mathematical concepts and proofs**.
+
+Tutorials will alternate between _lecture on a topic_ (part of tested materials) and _discussion of the homework problems_.
+
+Tutorials are also pre-recorded and uploaded on Luminus before Wednesday, 2pm.
+
+## Assessment
+
+| Test        | Weightage |
+| ----------- | --------- |
+| 5x Homework | 40%       |
+| Finals      | 60%       |
+
+## Textbook
+
+Thomas, Calculus, 14th ed., - Hass, Heil & Weir
+- Chapters 11 - 16
