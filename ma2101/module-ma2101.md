@@ -1,5 +1,7 @@
 # Linear Algebra 2
 
+#entry
+
 ## Textbook
 Linear Algebra Done Right - Sheldon Axler
 

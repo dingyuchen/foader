@@ -6,12 +6,13 @@ $$(x + y)^n = \sum^n_{k = 0} \binom{n}{k} x^k y^{n - k}$$
 By Mathematical Induction
 
 ### Case n = 1
-\[
+$$
 \begin{aligned}
-LHS &= $x + y$ \
-RHS &= 
+LHS &= x + y \\
+RHS &= \binom{1}{0} y + \binom{1}{1}x \\
+\therefore LHS &= RHS
 \end{aligned}
-\]
+$$
 
 ## Application
 How many subsets are there of a set consisting of $n$ elements?
