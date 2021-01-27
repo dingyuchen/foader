@@ -48,14 +48,14 @@ Standard (n-dimensional) Euclidean space
 
 ### Length
 
-$$ \vert  \vec u  \vert  := \sqrt{\vec u \cdot \vec u}$$
+$$\vert \vec u \vert := \sqrt{\vec u \cdot \vec u}$$
 
 #### Properties of Vector Lengths
 
 If $\vec u$ and $\vec v$ are any vector and $c$ is a scalar, then
 
 1. $\vert \vec u \vert  = 0$ iff $\vec u = \vec 0$
-2. $\vert c \vec u  \vert  =  \vert c  \vert | \vec u \vert$
+2. $\vert c \vec u \vert = \vert c \vert \vert \vec u \vert$
 3. $\vert \vec u + \vec v \vert  \leq  \vert \vec u \vert  +  \vert \vec v \vert$
 
 > 3 follows [[triangle-inequality]]
@@ -81,7 +81,7 @@ If $\vec v \neq 0$ then $\frac{\vec v}{  \vert \vec v \vert  }$ is called the **
 
 ### Angle 
 
-The angle between 2 nonzero vectors $\vec u$ and $\vec v$ is $\theta = \cos^{-1}(\frac{\vec u \cdot \vec v}{  \vert \vec u \vert |\vec v \vert  })$
+The angle between 2 nonzero vectors $\vec u$ and $\vec v$ is $\theta = \cos^{-1}(\frac{\vec u \cdot \vec v}{\vert \vec u \vert \vert \vec v \vert })$
 
 > This has meaning because of [[cauchy-schwarz-inequality]] which restricts the possible values of $\cos \theta$.
 
