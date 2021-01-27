@@ -11,7 +11,7 @@ $$f'(c) = \frac{f(b) - f(a)}{b - a}$$
 
  ## Proof
 
- Define $g : [a, b] \rightarrow \real$ by
+ Define $g : [a, b] \rightarrow \R$ by
 
  $$ g(x) = f(x) - \frac{f(b) - f(a)}{b - a} (x -a)$$
 
@@ -36,7 +36,7 @@ Then $g$ is a continuous function and differentiable on $(a, b)$.
 
  $$ e^x \geq 1 + x $$
 
- for all $x \in \real$.
+ for all $x \in \R$.
 
 ----------
 

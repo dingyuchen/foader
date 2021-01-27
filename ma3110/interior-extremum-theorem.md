@@ -1,6 +1,6 @@
 # Interior Extremum Theorem
 
-Suppose that $c$ is an interior point of an interval $I$ and $f : I \rightarrow \real$ is differentiable at $c$.
+Suppose that $c$ is an interior point of an interval $I$ and $f : I \rightarrow \R$ is differentiable at $c$.
 If $f$ has a relative extremum at $c$, then $f'(c) = 0$.
 
 > The converse is not true. Eg. inflection points.
