@@ -35,7 +35,7 @@ $$\vec u \cdot \vec v = \sum^n_{i = 1} u_i v_i$$
 2. Commutative
 3. Associative w.r.t. scalar multiplication
 4. Distributive
-5. $\vec u \cdot \vec u =|\vec u|^2$
+5. $\vec u \cdot \vec u = \vert \vec u \vert ^2$
 6. $\vec 0 \cdot \vec u = 0$
 
 ----------
@@ -48,15 +48,15 @@ Standard (n-dimensional) Euclidean space
 
 ### Length
 
-$$| \vec u | := \sqrt{\vec u \cdot \vec u}$$
+$$ \vert  \vec u  \vert  := \sqrt{\vec u \cdot \vec u}$$
 
-#### Properties of Vectors
+#### Properties of Vector Lengths
 
 If $\vec u$ and $\vec v$ are any vector and $c$ is a scalar, then
 
-1. $|\vec u| = 0$ iff $\vec u = \vec 0$
-2. $|c \vec u | = |c || \vec u|$
-3. $|\vec u + \vec v| \leq |\vec u| + |\vec v|$
+1. $\vert \vec u \vert  = 0$ iff $\vec u = \vec 0$
+2. $\vert c \vec u  \vert  =  \vert c  \vert | \vec u \vert$
+3. $\vert \vec u + \vec v \vert  \leq  \vert \vec u \vert  +  \vert \vec v \vert$
 
 > 3 follows [[triangle-inequality]]
 
@@ -77,20 +77,20 @@ Any vector in $\R^n$ is a linear combination of the standard unit vectors.
 
 ### Direction Vectors
 
-If $\vec v \neq 0$ then $\frac{\vec v}{ |\vec v| }$ is called the **direction** of the vector $\vec v$.
+If $\vec v \neq 0$ then $\frac{\vec v}{  \vert \vec v \vert  }$ is called the **direction** of the vector $\vec v$.
 
 ### Angle 
 
-The angle between 2 nonzero vectors $\vec u$ and $\vec v$ is $\theta = \cos^{-1}(\frac{\vec u \cdot \vec v}{ |\vec u||\vec v| })$
+The angle between 2 nonzero vectors $\vec u$ and $\vec v$ is $\theta = \cos^{-1}(\frac{\vec u \cdot \vec v}{  \vert \vec u \vert |\vec v \vert  })$
 
 > This has meaning because of [[cauchy-schwarz-inequality]] which restricts the possible values of $\cos \theta$.
 
 - Vectors $\vec u$ and $\vec v$ are orthogonal if $\vec u \cdot \vec v = 0$.
 - The scalar component of $\vec u$ in the direction of $\vec v$ is the scalar
-$$|\vec u| \cos \theta = \frac{\vec u \cdot \vec v}{|\vec v|} = \vec u \cdot \frac{\vec v}{|\vec v|}$$
+$$\vert \vec u \vert  \cos \theta = \frac{\vec u \cdot \vec v}{ \vert \vec v \vert } = \vec u \cdot \frac{\vec v}{ \vert \vec v \vert }$$
   - $\vec u$ dot product with unit direction vector of $\vec v$
 - The vector projection of $\vec u$ onto $\vec v$ is the vector
-$$\text{proj}_v \vec u = (\frac{\vec u \cdot \vec v}{|\vec v|^2}) \vec v = (\frac{\vec u \cdot \vec v}{|\vec v|}) \frac{\vec v}{|\vec v|}$$
+$$\text{proj}_v \vec u = (\frac{\vec u \cdot \vec v}{ \vert \vec v \vert ^2}) \vec v = (\frac{\vec u \cdot \vec v}{ \vert \vec v \vert }) \frac{\vec v}{ \vert \vec v \vert }$$
 
 ## Cross Product
 
@@ -98,7 +98,7 @@ $$\text{proj}_v \vec u = (\frac{\vec u \cdot \vec v}{|\vec v|^2}) \vec v = (\fra
 
 $( \times ) : \R^3 \times \R^3 \rightarrow \R^3$
 
-$$\vec u \times \vec v = (|\vec u||\vec v| \sin \theta) \vec n$$
+$$\vec u \times \vec v = ( \vert \vec u \vert |\vec v \vert  \sin \theta) \vec n$$
 
 > The magnitude of the normal vector is the area parallelogram formed by the 2 vectors
 
@@ -127,7 +127,7 @@ If $\vec u$, $\vec v$ and $\vec w$ are any vectors and $r, s$ are scalars, then
 ----------
 #### Proposition
 - For any $\vec u, \vec v \in \R^3$ one has $(\vec u \times \vec v) \cdot \vec u = \vec 0 = (\vec u \times \vec v) \cdot \vec v$
-- and if $\vec u$ and $\vec v$ are both $\neq \vec 0$, $|\vec u \times \vec v|^2 = |\vec u|^2 |\vec v|^2 \sin^2 \theta$
+- and if $\vec u$ and $\vec v$ are both $\neq \vec 0$, $\vert \vec u \times \vec v \vert ^2 =  \vert \vec u \vert ^2  \vert \vec v \vert ^2 \sin^2 \theta$
 
 > $(\vec u \times \vec v)$ is always orthogonal to both $\vec u$ and $\vec v$.
 
