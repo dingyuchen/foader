@@ -35,7 +35,7 @@ $$\vec u \cdot \vec v = \sum^n_{i = 1} u_i v_i$$
 2. Commutative
 3. Associative w.r.t. scalar multiplication
 4. Distributive
-5. $\vec u \cdot \vec u = | \vec u |^2$
+5. $\vec u \cdot \vec u =|\vec u|^2$
 6. $\vec 0 \cdot \vec u = 0$
 
 ----------
@@ -50,12 +50,12 @@ Standard (n-dimensional) Euclidean space
 
 $$| \vec u | := \sqrt{\vec u \cdot \vec u}$$
 
-#### Properties
+#### Properties of Vectors
 
 If $\vec u$ and $\vec v$ are any vector and $c$ is a scalar, then
 
-1. $| \vec u| = 0$ iff $\vec u = \vec 0$
-2. $|c \vec u| = |c||\vec u|$
+1. $|\vec u| = 0$ iff $\vec u = \vec 0$
+2. $|c \vec u | = |c || \vec u|$
 3. $|\vec u + \vec v| \leq |\vec u| + |\vec v|$
 
 > 3 follows [[triangle-inequality]]
@@ -77,11 +77,11 @@ Any vector in $\R^n$ is a linear combination of the standard unit vectors.
 
 ### Direction Vectors
 
-If $\vec v \neq 0$ then $\frac{\vec v}{|\vec v|}$ is called the **direction** of the vector $\vec v$.
+If $\vec v \neq 0$ then $\frac{\vec v}{ |\vec v| }$ is called the **direction** of the vector $\vec v$.
 
 ### Angle 
 
-The angle between 2 nonzero vectors $\vec u$ and $\vec v$ is $\theta = \cos^{-1}(\frac{\vec u \cdot \vec v}{|\vec u||\vec v|})$
+The angle between 2 nonzero vectors $\vec u$ and $\vec v$ is $\theta = \cos^{-1}(\frac{\vec u \cdot \vec v}{ |\vec u||\vec v| })$
 
 > This has meaning because of [[cauchy-schwarz-inequality]] which restricts the possible values of $\cos \theta$.
 
@@ -121,11 +121,13 @@ If $\vec u$, $\vec v$ and $\vec w$ are any vectors and $r, s$ are scalars, then
 5. $\vec 0 \times \vec u = \vec 0$
 
 ----------
+
 - [[triple-product-formula]]
+
 ----------
-Proposition
-: For any $\vec u, \vec v \in \R^3$ one has $(\vec u \times \vec v) \cdot \vec u = \vec 0 = (\vec u \times \vec v) \cdot \vec v$
-: and if $\vec u$ and $\vec v$ are both $\neq \vec 0$, $|\vec u \times \vec v|^2 = |\vec u|^2 |\vec v|^2 \sin^2 \theta$
+#### Proposition
+- For any $\vec u, \vec v \in \R^3$ one has $(\vec u \times \vec v) \cdot \vec u = \vec 0 = (\vec u \times \vec v) \cdot \vec v$
+- and if $\vec u$ and $\vec v$ are both $\neq \vec 0$, $|\vec u \times \vec v|^2 = |\vec u|^2 |\vec v|^2 \sin^2 \theta$
 
 > $(\vec u \times \vec v)$ is always orthogonal to both $\vec u$ and $\vec v$.
 
