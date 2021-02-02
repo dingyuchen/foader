@@ -1,4 +1,4 @@
-# L'Hospital's Rule
+# L'Hopital's Rule
 
 ## 0/0 case
 
