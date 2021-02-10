@@ -94,7 +94,7 @@ The feasible set is empty.
 2. Identify all constraints or restrictions
 3. Identify the objective or criterion
 
-> In this calss, we may formulate integer programs (variables must be integers), but we only solve linear programs.
+> In this class, we may formulate integer programs (variables must be integers), but we only solve linear programs.
 
 ## Transformations and Standard Form Problems
 
