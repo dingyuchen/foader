@@ -59,3 +59,6 @@ The **piecewise affine function** $\max_{i = 1, ..., m}(\bold c_i^T \bold x + d_
 
 Use [last theorem](#theorem) and the observation that $f_i(x) := c_i^T x + d_i$ is convex.
 
+## Formulating Maximising Problems as LP
+
+Replace the $\max$ function by some variable $t$.
