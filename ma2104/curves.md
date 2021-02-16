@@ -37,7 +37,7 @@ Suppose $\vec r : I \rightarrow \R^n$ is given in component form:
 
 $$\vec r(t) = (r_1(t), r_2(t), ..., r_n(t))$$
 
-Let $\vec L \in \R^n be given in component form as 
+Let $\vec L \in \R^n$ be given in component form as 
 
 $$\vec L = (L_1, L_2, ..., L_n)$$
 
