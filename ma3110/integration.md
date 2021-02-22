@@ -33,9 +33,31 @@ $$ m(b-a) \leq L(f, P) \leq U(f, P) \leq M(b - 1)$$
 
 ![](2021-02-08-08-27-00.png)
 
+### Upper and Lower Integrals
+
+Let $f:[a, b] \rightarrow \R$ be a bounded function. The **upper integral** of $f$ on $[a, b]$ is defined to be
+
+$$\overline{\int^b_a} f = U(f) := \inf \{ U(f, P) \}$$
+
+and the **lower integral** of $f$ on $[a, b]$ is defined to be
+
+$$\underline{\int^b_a} f = L(f) := \sup \{ L(f, P) \}$$
+
+### Theorem 7.1.2
+
+Let $f:[a, b] \rightarrow \R$ be a bounded function and let $P$ and $Q$ be partitions of $[a, b]$.
+
+Then
+
+$$L(f, P) \leq L(f, P \cup Q) \leq U(f, P \cup Q) \leq U(f, Q)$$
+
+Consequently,
+
+$$\underline{\int^b_a} f \leq \overline{\int^b_a} f$$
+
 ### Theorem 7.1.3
 
-Let $f: [a, b] \rightarrow \R$ be bounded and Integrable on $[a, b]]$ and set
+Let $f: [a, b] \rightarrow \R$ be bounded and Integrable on $[a, b]$ and set
 
 $$m = \inf \{f(x) : x \in [a, b]\} \text{ and }  M = \sup \{f(x) : x \in [a, b]\}$$
 
